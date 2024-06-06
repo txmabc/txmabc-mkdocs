@@ -6,17 +6,19 @@ site_url: https://www.xmabc.net # Url地址
 site_dir: site 
 copyright: 版权所有 &copy; 小米爱编程 <a href="https://beian.miit.gov.cn/">冀ICP备2022017844号-2</a> # 版权信息
 
-repo_name: txmabc/txmabc # 仓库名称
-repo_url: https://github.com/txmabc/txmabc.git # 仓库地址
+repo_name: txmabc/txmabc-mkdocs # 仓库名称
+repo_url: https://github.com/txmabc/txmabc-mkdocs.git # 仓库地址
 
 nav: 
   # - 首页: 
   #     - index.md
-  - Django:
-      - django: django/index.md
+  - txmabc-mkdocs:
+      - 安装: mkdocs/index.md
+  - txmabc-django-cms:
+      - 安装: django/index.md
       - 静态文件: django/static.md
-  - FastApi:
-      - FastApi: fastapi/index.md
+  - txmabc-fastapi:
+      - 安装: fastapi/index.md
   - 标签: tag.md
   - 博客:
       - index: blog/index.md
