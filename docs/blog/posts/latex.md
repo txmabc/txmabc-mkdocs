@@ -17,6 +17,35 @@ tags:
 [墨迹公式]：微软office自带，支持手写输入，文档排版必备
 
 
+| 小写 | 大写 | Latex小写命令 | Latex大写命令 |
+|:-------:|:-------:|:-------:|:-------:|
+| $\alpha$ | $\Alpha$ | \alpha | \Alpha |
+| $\beta$ | $\Beta$ | \beta | \Beta |
+| $\gamma$ | $\Gamma$ | \gamma | \Gamma |
+| $\delta$ | $\Delta$ | \delta | \Delta | 
+| $\epsilon$ | $\Epsilon$ | \epsilon | \Epsilon |
+| $\zeta$ | $\Zeta$ | \zeta | \Zeta |
+| $\nu$ | $\Nu$ |	\nu | \Nu |
+| $\xi$ | $\Xi$ |	\xi | \Xi |
+| $\omicron$ | $\Omicron$ | \omicron | \Omicron |
+| $\pi$ | $\Pi$ | \pi | \Pi |
+| $\rho$ | $\Rho$ | \rho | \Rho |
+| $\sigma$ | $\Sigma$ | \sigma | \Sigma |
+| $\eta$ | $\Eta$ | \eta | \Eta |
+| $\theta$ | $\Theta$ | \theta | \Theta |
+| $\iota$ | $\Iota$ | \iota | \Iota |
+| $\kappa$ | $\Kappa$ | \kappa | \Kappa |
+| $\lambda$ | $\Lambda$ | \lambda | \Lambda |
+| $\mu$ | $\Mu$ | \mu | \Mu |
+| $\tau$ | $\Tau$ | \tau | \Tau |
+| $\upsilon$ | $\Upsilon$ | \upsilon | \Upsilon |
+| $\phi$ | $\phi$ | \phi | \phi |
+| $\chi$ | $\Chi$ | \chi | \Chi |
+| $\psi$ | $\Psi$ | \psi | \Psi |
+| $\omega$ | $\Omega$ | \omega | \Omega |
+
+{{ read_excel('docs/assets/tables/latex_more.xlsx', engine='openpyxl') }}
+
 [math]: https://webdemo.myscript.com/views/math/index.html
 [Simpletex]: https://simpletex.cn/
 [墨迹公式]: https://support.microsoft.com/zh-cn/office/word-%E4%B8%AD%E4%BD%BF%E7%94%A8-unicodemath-%E5%92%8C-latex-%E7%9A%84%E7%BA%BF%E6%80%A7%E6%A0%BC%E5%BC%8F%E5%85%AC%E5%BC%8F-2e00618d-b1fd-49d8-8cb4-8d17f25754f8
