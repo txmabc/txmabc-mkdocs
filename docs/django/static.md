@@ -7,47 +7,47 @@ Django 在关于静态文件方面主要阐述了两点，大家可以参考官�
 
 有关这方面的内容，我先贴下我的主要配置
 
-1. settings.py
+=== "settings.py"
 
-```python
-
-    DEBUG = False
+    ``` python
     
-    STATIC_URL = '/static/' #
-    
-    STATICFILES_DIRS = [
-        BASE_DIR / 'static',
-    ]
-    
-    STATIC_ROOT = BASE_DIR / 'public'
-    
-    MEDIA_ROOT = BASE_DIR / "uploads"
-    
-    MEDIA_URL = "uploads/"
-
-```
-
-2. 我的linux服务器 nginx 配置
-
-```nginx
-
-	#引用反向代理规则，注释后配置的反向代理将无效
-
-	include /www/server/panel/vhost/nginx/proxy/***/*.conf;
-
-
-
-    location ^~ /static {
+        DEBUG = False
         
-        #此处地址为 `python manage.py collectstatic` 静态文件收集地址，即 `STATIC_ROOT` 配置地址
-        alias /www/wwwroot/txmabc/public;
+        STATIC_URL = '/static/' #
+        
+        STATICFILES_DIRS = [
+            BASE_DIR / 'static',
+        ]
+        
+        STATIC_ROOT = BASE_DIR / 'public'
+        
+        MEDIA_ROOT = BASE_DIR / "uploads"
+        
+        MEDIA_URL = "uploads/"
+    
+    ```
 
-    }
+=== "nginx"
 
-    location ^~ /uploads {
-        #同上，配置好媒体文件所在地址
-        alias /www/wwwroot/txmabc/uploads;
-    }
-
-```
+    ``` nginx
+    
+    	#引用反向代理规则，注释后配置的反向代理将无效
+    
+    	include /www/server/panel/vhost/nginx/proxy/***/*.conf;
+    
+    
+    
+        location ^~ /static {
+            
+            #此处地址为 `python manage.py collectstatic` 静态文件收集地址，即 `STATIC_ROOT` 配置地址
+            alias /www/wwwroot/txmabc/public;
+    
+        }
+    
+        location ^~ /uploads {
+            #同上，配置好媒体文件所在地址
+            alias /www/wwwroot/txmabc/uploads;
+        }
+    
+    ```
 

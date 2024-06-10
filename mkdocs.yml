@@ -14,9 +14,12 @@ nav:
   #     - index.md
   - txmabc-mkdocs:
       - 安装: mkdocs/index.md
+      - 评论功能: mkdocs/comments.md
   - txmabc-django-cms:
       - 安装: django/index.md
       - 静态文件: django/static.md
+      - 标签: django/templatetags.md
+
   - txmabc-fastapi:
       - 安装: fastapi/index.md
   - 标签: tag.md

@@ -8,6 +8,7 @@ categories:
   - LaTeX
 tags:
   - LaTeX
+comments: true
 ---
 
 [Simpletex]：一个可以将图片快速转化为Latex公式的软件
