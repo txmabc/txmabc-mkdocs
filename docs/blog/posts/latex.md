@@ -17,6 +17,26 @@ comments: true
 
 [墨迹公式]：微软office自带，支持手写输入，文档排版必备
 
+<!-- more -->
+
+1.运算符号
+
+| 编号 | 符号 | 公式 | 语句 |
+| ---- | ---- | ---- | ---- |
+| 1 | 极限符号 | $$ \lim_{n \to +\infty} $$ | \lim_{n\to +\infty} |
+| 2 | 样本均值 | $ \bar x $ | \bar x 或者\overline x |
+| 3 | 分数 | $ \frac{1}{n} $ | \frac{1}{n} |
+| 4 | 期望 | $ \mathbb{E} $ | \mathbb{E} |
+| 5 | 求和 | $$ \sum_{i=1}^n $$ | \sum_{i=1}^n |
+| 6 | 依概率收敛到 | $ x_n\stackrel{p}\longrightarrow\mu $ | x_n\stackrel{p}\longrightarrow\mu |
+| 7 | 二次根号 | $ \sqrt{n} $ | \sqrt{n} |
+| 8 | 四次根号 | $ \sqrt[4]{n} $ | \sqrt[4]{n} |
+| 9 | 转置符合 | $ \mathtt{X} $ | \mathtt{X} |
+| 10 | 累乘符号 | $ \prod $ | \prod |
+
+
+
+2.希腊字母
 
 | 小写 | 大写 | Latex小写命令 | Latex大写命令 |
 |:-------:|:-------:|:-------:|:-------:|
