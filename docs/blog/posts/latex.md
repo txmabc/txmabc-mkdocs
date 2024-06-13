@@ -24,7 +24,7 @@ comments: true
 | 编号 | 符号 | 公式 | 语句 |
 | ---- | ---- | ---- | ---- |
 | 1 | 极限符号 | $$ \lim_{n \to +\infty} $$ | \lim_{n\to +\infty} |
-| 2 | 样本均值 | $ \bar x $ | \bar x 或者\overline x |
+| 2 | 样本均值 | $ \bar x $ | \bar x 或者 \overline x |
 | 3 | 分数 | $ \frac{1}{n} $ | \frac{1}{n} |
 | 4 | 期望 | $ \mathbb{E} $ | \mathbb{E} |
 | 5 | 求和 | $$ \sum_{i=1}^n $$ | \sum_{i=1}^n |
@@ -64,6 +64,25 @@ comments: true
 | $\chi$ | $\Chi$ | \chi | \Chi |
 | $\psi$ | $\Psi$ | \psi | \Psi |
 | $\omega$ | $\Omega$ | \omega | \Omega |
+
+3.其它符号
+
+| 符号 | 写法 | 符号 | 写法 | 符号 | 写法 | 
+|:----:|:----:|:----:|:----:|:----:|:----:|
+| $\dots$ | \dots |	$ \cdots $ | \cdots |	$ \vdots $ | \vdots |
+|	$ \ddots $ | \ddots |	$ \hbar $ | \hbar |	$ \imath $ | \imath |
+| $ \jmath $ | \jmath |	$ \ell $ | \ell |	$ \Re $ | \Re |
+|	$ \Im $ | \Im |	$ \aleph $ | \aleph |	$ \wp $ | \wp |
+|	$ \forall $ | \forall |	$ \exists $ | \exists |	$ \mho $ | \mho |
+|	$ \partial $ | \partial | $  ' $ |  ' |	$ \prime $ | \prime |
+| $ \emptyset $ | \emptyset |	$ \infty $ | \infty |	$ \nabla $ | \nabla |
+|	$ \triangle $ | \triangle |	$ \Box $ | \Box |	$ \Diamond $ | \Diamond |
+|	$ \bot $ | \bot |	$ \top $ | \top |	$ \angle $ | \angle |
+|	$ \surd $ | \surd |	$ \diamondsuit $ | \diamondsuit |	$ \heartsuit $ | \heartsuit |
+|	$ \clubsuit $ | \clubsuit |	$ \spadesuit $ | \spadesuit |	$ \neg $ | \neg or \lnot |
+|	$ \flat $ | \flat |	$ \natural $ | \natural |	$ \sharp $ | \sharp |
+
+> 补充  
 
 {{ read_excel('docs/assets/tables/latex_more.xlsx', engine='openpyxl') }}
 
