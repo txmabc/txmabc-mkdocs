@@ -15,6 +15,7 @@ nav:
   - txmabc-mkdocs:
       - 安装: mkdocs/index.md
       - 评论功能: mkdocs/comments.md
+      - 主题定制: mkdocs/customization.md
   - txmabc-django-cms:
       - 安装: django/index.md
       - 静态文件: django/static.md
